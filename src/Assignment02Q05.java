@@ -17,7 +17,7 @@ public class Assignment02Q05 {
 		int[][] rotatedMatrix = new int[N][N]; // the rotated matrix
 		for(int i=0;i < N; i++){
 			for(int j=0; j < N; j++){
-				rotatedMatrix[i][j] = matrix[j][i]; // the value at [i][j] is the i*N+j item in args (without considering args[0])
+				rotatedMatrix[i][j] = matrix[N-1-j][i]; // the value at [i][j] is the i*N+j item in args (without considering args[0])
 			}
 		}
 		
