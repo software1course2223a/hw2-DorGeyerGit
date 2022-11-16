@@ -2,6 +2,7 @@
 public class Assignment02Q03 {
 
 	public static void main(String[] args) {
+		
 		int numOfOdd = 2;
 		String series = "1 1 2";
 		int last = 2;
